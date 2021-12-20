@@ -1,0 +1,137 @@
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue1: hsl(216, 54%, 11%);
+    --Very-dark-blue2: hsl(216, 50%, 16%);
+    --Very-dark-blue3: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    background-color: var(--Very-dark-blue1);
+}
+
+.card {
+    width: 312px;
+    height: 537px;
+    background-color: var(--Very-dark-blue2);
+    position: relative;
+    margin: 35px auto auto auto;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 5px 20px 20px 30px #0c1729e0;
+    transition: transform 500ms;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
+
+
+.main-pic {
+    content: "";
+    background-image: url("images/image-equilibrium.jpg");
+    height: 273px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: transform 500ms;
+    z-index: 100;
+}
+
+.main-pic:hover {
+    background-color: black;
+
+}
+
+
+
+.text-1 {
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: -123px;
+    font-weight: 600;
+}
+
+.text-2 {
+    color: #5a718f;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.shit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    color: #12afaa;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 80px;
+    align-items: flex-start;
+}
+
+.left img {
+    margin-bottom: 15px;
+    margin-right: 7px;
+}
+
+
+
+.right {
+    display: flex;
+    color: #5a718f;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    align-items: center;
+}
+
+
+
+
+.hr {
+    width: 265px;
+    height: 2px;
+    background-color: #1e3048;
+    z-index: 10;
+}
+
+.user {
+    display: flex;
+    margin-top: 8px;
+    margin-right: 55px;
+
+
+}
+
+.user img {
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.user p {
+    font-size: 14px;
+    color: #576c8d;
+    margin-top: 8px;
+    padding-left: 12px;
+}
+
+.user p span {
+    color: #d2d9e0
+}
